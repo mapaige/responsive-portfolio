@@ -1,0 +1,38 @@
+h1 {
+  color: aqua;
+}
+
+body {
+  color: gray;
+}
+
+.navbar-brand{
+  background: aqua;
+  padding:1em;
+ 
+}
+
+.container-fluid {
+  margin: 20 30 20 30;
+}
+
+.img {
+  position: relative;  
+  width: 300px;
+  height: 300px;
+}
+
+.navbar-nav .nav-item ::after{
+  content: "|";
+  padding: 1em;
+}
+
+.navbar-nav .nav-item:last-child ::after{
+  content: "";
+}
+
+.card {
+  background-color: aqua;
+  width: 300px;
+  height: 300px;
+}
