@@ -1,43 +1,34 @@
 h1 {
-  color: #712e1e;
+  color: #14a2bb;
 }
 
 body {
   color:#f5f3f1;
   height: 100%;
-  background :#68020F;
+  background :black;
+  min-height: 100%;
 }
 
-html{
-  height: 100%;
+#bg {
+  
+    width: 100%;
+    /* Full width (cover the whole page) */
+    height: 100%;
+    /* Full height (cover the whole page) */
+    opacity: 90%;
+    z-index: -1;
 }
+
+
 
 .navbar{
-  background: transparent;
+  background: black;
   padding:1em;
  
 }
 
-.tech {
-  
-  background-image: url(https://wallpapertag.com/wallpaper/full/a/6/5/332052-most-popular-tech-background-3840x2160-for-hd.jpg);
- 
-    
-  
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    right: 0; 
-    bottom: 0; 
-    margin: auto; 
-    min-width: 50%;
-    min-height: 50%;
-    height: 50%;
-  
-}
-.container-fluid {
-  margin: 20 30 20 30;
-}
+
+
 
 p {
   font-size:large;
@@ -50,11 +41,7 @@ p {
   margin: auto;
 }
 
-/* .img {
-  position: relative;  
-  width: 500px;
-  height: 500px;
-} */
+
 
 
 .navbar-nav .nav-item ::after{
@@ -67,7 +54,10 @@ p {
   content: "";
 }
 
-
+.contact-bg{
+  background: rgba(6, 6, 207, 0.767);
+  
+}
 
 
 .card {
