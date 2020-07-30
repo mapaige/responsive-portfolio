@@ -1,33 +1,46 @@
 h1 {
-  color: aqua;
+  color: #712e1e;
 }
 
 body {
-  color: gray;
+  color:#f5f3f1;
+ 
+  background :#68020F;
 }
 
 .navbar{
-  background: aqua;
+  background: #F21137;
   padding:1em;
  
 }
 
+.nav-item {
+
+}
 .container-fluid {
   margin: 20 30 20 30;
 }
+
+p {
+  font-size:large;
+  text-align: justify;
+}
+
 
 .form-group {
   width: 450px;
   margin: auto;
 }
 
-.img {
+/* .img {
   position: relative;  
   width: 500px;
   height: 500px;
-}
+} */
+
 
 .navbar-nav .nav-item ::after{
+
   content: "|";
   padding: 1em;
 }
@@ -36,10 +49,13 @@ body {
   content: "";
 }
 
+
+
+
 .card {
-  background-color: aqua;
+  background-color: #888870;
   width: 300px;
-  height: 300px;
+  /* height: 300px; */
 }
 
 
