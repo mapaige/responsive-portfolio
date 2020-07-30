@@ -1,22 +1,33 @@
-h1 {
-  color: #14a2bb;
+.title {
+  color: white ;
+  margin: 10px;
+  
+  font-size: 20px;
+  
+  
 }
 
 body {
   color:#f5f3f1;
   height: 100%;
   background :black;
-  min-height: 100%;
+  
 }
 
 #bg {
-  
-    width: 100%;
+     height: 100vh;
+    /* width: 100%; */
     /* Full width (cover the whole page) */
-    height: 100%;
+    /* height: 600px; */
     /* Full height (cover the whole page) */
-    opacity: 90%;
-    z-index: -1;
+    /* opacity: 80%;*/
+    z-index: -1; 
+    min-height: 50%;
+    background-size: 300px 100px;
+  
+  
+   
+  
 }
 
 
@@ -27,6 +38,14 @@ body {
  
 }
 
+.title {
+  
+  opacity: 10;
+  font-size: 3.5vw;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
 
 
 
@@ -54,8 +73,16 @@ p {
   content: "";
 }
 
+
+.home-title{
+  text-align: right;
+  text-align: center;
+  
+}
 .contact-bg{
-  background: rgba(6, 6, 207, 0.767);
+  background: rgb(10, 0, 0);
+  opacity: 1.0;
+  
   
 }
 
@@ -73,11 +100,13 @@ p {
 .fa-facebook {
   background: #3B5998;
   color: white;
+  
 }
 
 .fa-linkedin {
   background: #007bb5;
   color: white;
+  opacity: 1;
 }
   
   .fa {
@@ -88,4 +117,4 @@ p {
     text-decoration: none;
     margin: 5px 2px;
   }
-
+ 
