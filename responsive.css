@@ -4,18 +4,36 @@ h1 {
 
 body {
   color:#f5f3f1;
- 
+  height: 100%;
   background :#68020F;
 }
 
+html{
+  height: 100%;
+}
+
 .navbar{
-  background: #F21137;
+  background: transparent;
   padding:1em;
  
 }
 
-.nav-item {
-
+.tech {
+  
+  background-image: url(https://wallpapertag.com/wallpaper/full/a/6/5/332052-most-popular-tech-background-3840x2160-for-hd.jpg);
+ 
+    
+  
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+    height: 50%;
+  
 }
 .container-fluid {
   margin: 20 30 20 30;
