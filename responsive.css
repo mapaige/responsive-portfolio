@@ -13,7 +13,8 @@ body {
 	/* opacity: 80%;*/
 	z-index: -1;
 	min-height: 50%;
-	background-size: 300px 100px;
+  background-size: 300px 100px;
+  
 }
 
 .navbar {
@@ -67,10 +68,11 @@ p {
 }
 
 .card {
-	background-color: black;
-	width: 300px;
+	background-color: white;
+	width: 700px;
 	/* height: 450px;  */
-	color: white;
+  color: gray;
+  padding:10px;
 }
 
 .fa:hover {
