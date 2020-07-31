@@ -1,122 +1,101 @@
 body {
-  color:#f5f3f1;
-  height: 100%;
-  background :black;
-  
+	color: #f5f3f1;
+	height: 100%;
+	background: black;
 }
 
 #bg {
-     height: 100vh;
-    /* width: 100%; */
-    /* Full width (cover the whole page) */
-    /* height: 600px; */
-    /* Full height (cover the whole page) */
-    /* opacity: 80%;*/
-    z-index: -1; 
-    min-height: 50%;
-    background-size: 300px 100px;   
-  
+	height: 100vh;
+	/* width: 100%; */
+	/* Full width (cover the whole page) */
+	/* height: 600px; */
+	/* Full height (cover the whole page) */
+	/* opacity: 80%;*/
+	z-index: -1;
+	min-height: 50%;
+	background-size: 300px 100px;
 }
 
-
-
-.navbar{
-  background:transparent;
-  padding:1em;
- 
+.navbar {
+	background: transparent;
+	padding: 1em;
 }
 
 .title {
-  margin-left: 70px;
-  opacity: 10;
-  font-size:5.0vw;
-  margin-bottom: 30px;
-  margin-left: 100px;
-  margin-top: 20px;
-  text-align: right;
-  color: blue ;
-  margin: 10px;
-  font-weight: lighter
-
-  
+	margin-left: 70px;
+	opacity: 10;
+	font-size: 5vw;
+	margin-bottom: 30px;
+	margin-left: 100px;
+	margin-top: 20px;
+	text-align: right;
+	color: blue;
+	margin: 10px;
+	font-weight: lighter;
 }
 
 .container {
-  font-weight: lighter;
+	font-weight: lighter;
 }
-
-
 
 p {
-  font-size:large;
-  text-align: justify;
+	font-size: large;
+	text-align: justify;
 }
-
 
 .form-group {
-  width: 450px;
-  margin: auto;
+	width: 450px;
+	margin: auto;
 }
 
-
-
-
-.navbar-nav .nav-item ::after{
-
-  content: "|";
-  padding: 1em;
+.navbar-nav .nav-item ::after {
+	content: '|';
+	padding: 1em;
 }
 
-.navbar-nav .nav-item:last-child ::after{
-  content: "";
+.navbar-nav .nav-item:last-child ::after {
+	content: '';
 }
 
-
-.home-title{
-  text-align: right;
-  text-align: center;
-  
+.home-title {
+	text-align: right;
+	text-align: center;
 }
-.contact-bg{
-  background: rgba(18, 18, 19, 0.938);
-  opacity: 1.0;
-  
-  
+.contact-bg {
+	background: rgba(18, 18, 19, 0.938);
+	opacity: 1;
 }
-
 
 .card {
-  background-color: white;
-  width: 300px;
-  /* height: 300px; */
+	background-color: black;
+	width: 300px;
+	/* height: 450px;  */
+	color: white;
 }
-
 
 .fa:hover {
-  opacity: 0.7;
+	opacity: 0.7;
 }
 .fa-facebook {
-  background: transparent;
-  color: white;
-  
-  
+	background: transparent;
+	color: white;
 }
 
 .fa-linkedin {
-  background: transparent;
-  color: white;
-  opacity: 1;
+	background: transparent;
+	color: white;
+	opacity: 1;
 }
-  
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }
- 
-  .portfolio {
-    background:rgba(18, 18, 19, 0.938)
-  }
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+}
+
+.portfolio {
+	background: rgba(18, 18, 19, 0.938);
+}
