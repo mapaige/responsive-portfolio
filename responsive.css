@@ -101,3 +101,11 @@ p {
 .portfolio {
 	background: rgba(18, 18, 19, 0.938);
 }
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(124, 64, 43);
+  color: white;
+}
