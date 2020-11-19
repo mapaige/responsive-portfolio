@@ -49,6 +49,16 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.me-pic {
+border: 1px solid grey;
+width: auto;
+margin-bottom: 40px;
+border-radius: 20px;
+vertical-align: top;
+box-shadow: 0 5px 10px 0 rgba(0,0,0,.36), 0 5px 10px 0 rgba(0,0,0,.32);
+}
+
+
 p {
 	font-size: large;
 	text-align: justify;
